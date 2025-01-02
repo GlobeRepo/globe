@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SignOut } from "./sign-out";
 
 const Navbar = () => {
     return (
@@ -18,6 +19,9 @@ const Navbar = () => {
             <Link href="/profile" className="hover:text-gray-200">
               Profile
             </Link>
+          </li>
+          <li className="text-lg font-bold">
+            <SignOut/>
           </li>
         </ul>
       </nav>
