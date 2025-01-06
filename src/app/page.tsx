@@ -2,7 +2,8 @@ import React from 'react';
 import './page.css';
 import Head from 'next/head';
 
-// import Globe from '../components/globe';  // Import the Globe component
+import SignIn from '@/components/sign-in';
+import Globe from '../components/globe';  // Import the Globe component
 
 
 const MainPage = () => {
@@ -31,6 +32,7 @@ const MainPage = () => {
             <p className="intro-text">Where have you been and where should you go?</p>
           </div>
 
+          <SignIn />
           <div className="button-group">
             <button className="btn signup">Sign Up</button>
             <button className="btn login">Log in</button>
