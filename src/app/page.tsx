@@ -1,12 +1,8 @@
 import React from 'react';
 import './page.css';
 import Head from 'next/head';
-// import { FaUser, FaLock } from "react-icons/fa";
 
-// src/app/page.tsx
-
-import Globe from '../components/globe';  // Import the Globe component
-
+// import Globe from '../components/globe';  // Import the Globe component
 
 
 const MainPage = () => {
@@ -17,25 +13,31 @@ const MainPage = () => {
       </Head>
       <header className="navbar">
           <div className="navbar-container">
-            <div className="welcome-heading">My Travel Globe</div>
+            <div><p className="welcome-heading">My Travel Globe</p></div>
             <nav className="nav-links">
-              <a href="#" className="links">About</a>
-              <a href="#" className="links">Contact</a>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
             </nav>
           </div>
       </header>
-      <main className="login-page">        
+
+      <main className="login-page"> 
+        <div className='background-con'>
+        </div>
         <div className="container">
           <div className="prompt-group">
-            <p className="intro-text">Where have you been and where should you go? We will show you a new way to experience the world!</p>
+            <p className="intro-text">Where have you been and where should you go?</p>
           </div>
 
           <div className="button-group">
             <button className="btn signup">Sign Up</button>
             <button className="btn login">Log in</button>
           </div>
+
+          <p className='intro-t2'> We will show you a new way to experience the world!</p>
         </div>
-        <p>stuff to be determined</p>
       </main>
     </>
 
