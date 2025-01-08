@@ -1,0 +1,17 @@
+.navbar {
+    padding: 0 24px; /* Adds 24px padding */
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      padding: 10px 30px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar {
+      padding: 10px 30px;
+    }
+  }
+
+

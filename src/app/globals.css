@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -29,3 +30,13 @@ code {
   }
 }
 
+.hero-bg {
+  /* @apply absolute right-0 top-0 h-screen w-screen bg-pattern bg-cover bg-center
+  md:-right-28 xl:-top-60; */
+  @apply absolute top-10 bottom-0 h-screen w-screen bg-pattern bg-cover bg-center h-[500px] md:h-[700px];
+
+}
+
+.bg-pattern {
+  background-image: url('/land.jpg');
+}

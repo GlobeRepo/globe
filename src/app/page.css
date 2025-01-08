@@ -75,11 +75,13 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     color: white;
-
     text-align: center;
     /* font-size: 30px; */
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 .prompt-group {
     margin-bottom: 20px;
